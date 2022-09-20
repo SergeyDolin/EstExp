@@ -18,7 +18,7 @@ def ParsPoints():
     sol_count = 0
     point_count = 0
     
-    for root, dirs, files in os.walk("./Points", topdown = True):
+    for root, dirs, files in os.walk("./PointsStatic", topdown = True):
         for name in dirs:
             if name != 'PPP' and name != 'PPPDCB' and name != "AMERICA" and name != "EUROPE":
                 points_Name.append(name)
